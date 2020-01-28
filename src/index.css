@@ -1,0 +1,57 @@
+.btn-toolbar .btn{
+    margin-right: 5px;
+}
+.btn-toolbar .btn:last-child{
+    margin-right: 0;
+}
+
+* {margin: 0; padding: 0;}
+#root{
+  margin: auto;
+  margin-top: 30px;
+  width: 70%;
+  border: 3px solid green;
+  padding: 10px;
+} 
+
+.table {
+  align-self: center;
+  width: 90%;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+td {
+  border: none;
+}
+
+div {
+  margin: 0px;
+}
+ 
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+ 
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
